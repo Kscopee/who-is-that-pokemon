@@ -1,0 +1,58 @@
+/* mobile responsiveness? */
+@media only screen and (max-width: 500px) {
+    
+    .contents{
+        width: 85%;
+        border-radius: 5rem;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttons button {
+        font-size: 10px;
+        text-align: center;
+        margin: 10px;
+        height: 2rem;
+        width: 4rem;
+    }
+    
+
+    #darkMode{
+        font-size: 10px;
+        margin: 15px;
+        height: 2rem;
+        width: 5rem;
+    }
+
+    #pokemonSprite{
+        height: 10rem;
+        width: 10rem;
+    }
+
+    p{
+        font-size: .75rem;
+    }
+
+    input{
+        font-size: 10px;
+        height: .75rem;
+        width: 6rem;
+        border-radius: 8px;
+        padding: 10px;
+        border: none;
+        margin: 10px;
+    }
+
+    #result{
+        width: 80%;
+        font-size: 1rem;
+    }
+    
+    #wtp{
+        font-size: 1.5rem;
+    }
+}

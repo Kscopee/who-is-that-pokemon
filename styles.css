@@ -11,7 +11,12 @@ body{
     color: #F2F2F2;
     font-family: "Poppins", sans-serif;
     transition: background-color 0.5s, color 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
 
 .questionPokemon{
     flex-direction: column;
@@ -79,7 +84,8 @@ input{
 }
 
 .contents{
-    transform: translate(50%,5%);
+    /* transform: translate(50%,5%); */
+    margin-top: 3rem;
     background-color: #F28D52;
     box-shadow: 10px 10px 10px #f2e8ace7;
     border: 1px solid #f2e8ac93;
@@ -120,5 +126,6 @@ p{
 }
 
 #wtp{
+    margin-top: 2rem;
     font-size: 2rem;
 }
